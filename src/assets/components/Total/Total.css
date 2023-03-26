@@ -1,0 +1,12 @@
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+.value{
+    color: var(--color-primary);
+    font-size: 1rem;
+}
+.title.four{
+    color: var(--color-gray3);
+}

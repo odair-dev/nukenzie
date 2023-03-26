@@ -1,0 +1,36 @@
+.btn{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: .4s;
+}
+.btn.create{
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    background: var(--color-primary);
+    color: white;
+    height: 48px;
+    width: 100%;
+    margin-top: 26px;
+    margin-bottom: 42px;
+}
+.btn.create:hover{
+    background: var(--color-primary2);
+}
+.btn.delete{
+    width: 48px;
+    height: 19px;
+    font-size: .625rem;
+    font-weight: 400;
+    border-radius: 2px;
+    background: var(--color-gray2);
+    color: var(--color-gray4);
+    height: 19px;
+    padding: 0 8px;
+}
+.btn.delete:hover{
+    background: var(--color-gray4);
+    color: white;
+}

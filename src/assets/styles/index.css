@@ -1,0 +1,49 @@
+@import './reset.css';
+@import './global.css';
+@import './typography.css';
+@import './button.css';
+@import './form.css';
+
+.divContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+.mainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerLeft{
+    width: 100%;
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+.divTotal{
+    width: 91.03%;
+    max-width: 355px;
+    margin-top: 19px;
+    padding: 20px;
+}
+.containerRight{
+    width: 100%;
+    max-width: 580px;
+    padding: 0 20px;
+}
+@media(min-width:1024px){
+    .mainContainer{
+        width: 100%;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .containerLeft{
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,19 @@
+.title{
+    color: var(--color-gray4);
+}
+.title.one{
+    font-size: 2.375rem;
+    font-weight: 800;
+}
+.title.two{
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+.title.three{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.title.four{
+    font-size: .75rem;
+    font-weight: 600;
+}

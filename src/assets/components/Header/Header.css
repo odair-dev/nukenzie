@@ -1,0 +1,25 @@
+header{
+    width: 100%;
+    height: 69px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px var(--color-gray3);
+    margin-bottom: 29px;
+}
+.divLogo{
+    width: 100%;
+    max-width: 980px;
+}
+img{
+    height: 18px;
+}
+@media(min-width:1024px){
+    header{
+        height: 88px;
+    }
+    img{
+        height: 19.53px;
+    }
+}
