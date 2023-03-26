@@ -10,7 +10,10 @@ export function FormNewCard({addValuesToValuesList}){
     const submit = (event)=>{
         event.preventDefault();
         const formData = {descriptionInp, valueInp, typeInp}
-        addValuesToValuesList(formData); 
+        addValuesToValuesList(formData);
+        setDescriptionInp("");
+        setValueInp("");
+        setTypeInp(""); 
     }
 
     return(
