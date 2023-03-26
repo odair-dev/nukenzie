@@ -26,7 +26,7 @@ export function FormNewCard({addValuesToValuesList}){
             <input onChange={(event)=>setValueInp(event.target.value)} value={valueInp} type="number" name="value" id="value" placeholder="1" required/>
                 
             <label htmlFor="type">Tipo de valor</label>
-            <select onChange={(event)=>setTypeInp(event.target.value)} className="type" id="type" required>
+            <select value={typeInp} onChange={(event)=>setTypeInp(event.target.value)} className="type" id="type" required>
                 <option value="">Escolha um tipo</option>
                 {categories.map(category => (
                     <option key={category.slug} value={category.slug}>{category.label}</option>
